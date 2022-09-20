@@ -22,13 +22,6 @@
 
 
 
-/* Header */
-
-
-
-
-
-
 .background-header-carousel{
     position: absolute;
     z-index: -999;
@@ -41,9 +34,7 @@
 .content-no-background{
     margin-top: 80%;
 }
-
-
-
+/* Header */
 
 
 .suite-apresentation, .cabana-apresentation{
