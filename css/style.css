@@ -1,3 +1,71 @@
-.slider{
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
     display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+/* Header */
+
+.header-top{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: white;
+}
+
+
+
+/* Header */
+
+
+
+
+
+
+.background-header-carousel{
+    position: absolute;
+    z-index: -999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+}
+
+.content-no-background{
+    margin-top: 80%;
+}
+
+
+
+
+
+.suite-apresentation, .cabana-apresentation{
+    margin-top: 4%;
+}
+
+.suite-img-description, .cabana-img-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.suite-img{
+    width: 40%;
+}
+
+.cabana-img{
+    width: 67%;
+}
+
+.suite-description{
+    width: 60%;
 }
