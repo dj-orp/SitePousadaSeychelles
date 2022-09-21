@@ -1,47 +1,75 @@
-*{
+* {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 100%;
+    width: 100% !important;
 }
+
+
+
 
 /* Header */
 
-.header-top{
+.header-top {
     display: flex;
     justify-content: space-around;
-    width: 100%;
-    background-color: white;
+    width: 100% !important;
+    height: 70px !important;
+    background-color: rgb(256, 256, 256, 0.7);
 }
 
-
-
-.background-header-carousel{
+.background-header-carousel {
     position: absolute;
     z-index: -999;
     top: 0;
     left: 0;
     width: 100%;
-    height: 60%;
+    height: 100%;
 }
 
-.content-no-background{
-    margin-top: 80%;
+.carousel-item img {
+    width: 100%;
+    height: 1000px;
 }
+
+.content-no-background {
+    margin-top: 55rem !important;
+}
+
+.unidades-header{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+
+.dropdown{
+    width: 30% !important;
+}
+
+.btn{
+    height: 100%;
+    font-size: 2rem !important;
+    background-color: transparent !important;
+}
+
+
 /* Header */
 
 
-.suite-apresentation, .cabana-apresentation{
+
+
+.suite-apresentation,
+.cabana-apresentation {
     margin-top: 4%;
 }
 
-.suite-img-description, .cabana-img-description {
+.suite-img-description,
+.cabana-img-description {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,14 +77,49 @@
     width: 100%;
 }
 
-.suite-img{
+.suite-img {
     width: 40%;
 }
 
-.cabana-img{
+.cabana-img {
     width: 67%;
 }
 
-.suite-description{
+.suite-description {
     width: 60%;
+}
+
+
+
+
+
+
+
+
+
+ 
+/* Resposiviti */
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 100% !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 100% !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 100% !important;
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 100% !important;
+    }
 }
