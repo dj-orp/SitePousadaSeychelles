@@ -14,6 +14,7 @@
 
 
 /* Header */
+
 .header-top {
     display: flex;
     width: 100% !important;
@@ -22,9 +23,11 @@
 }
 
 .header-top img{
+    position: relative;
     width: 200px !important;
     height: 150px !important;
-    background-color: #197a89;
+    background-color: #197a89d4;
+    margin-right: 2% !important;
 }
 
 .background-header-carousel {
@@ -89,10 +92,7 @@
 /* Header */
 
 
-
 /* Content page */
-
-
 /* Anunciment attention */
 
 .text-attention{
@@ -126,9 +126,6 @@
     font-size: 1.5rem;
 }
 
-
-
-
 .text-attention2{
     display: flex;
     flex-direction: column;
@@ -160,8 +157,9 @@
     font-size: 1.5rem;
 }
 
-
 /* Anunciment attention */
+
+
 
 
 .content-no-background {
@@ -219,22 +217,16 @@
     font-size: 3rem;
 }
 
+.general-description p{
+    font-size: 1.5rem;
+}
 
-
-
-
+.general-description p:last-child{
+    margin-top: 2% !important;
+}
 
 /* Content page */
 
-
-
-
-
-
-
-
-
- 
 /* Resposiviti */
 
 @media (min-width: 1200px) {
