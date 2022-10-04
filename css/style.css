@@ -20,6 +20,8 @@
     width: 100% !important;
     height: 70px !important;
     background-color: #197a89d4;
+    position: fixed;
+    z-index: 999;
 }
 
 .header-top img{
@@ -126,37 +128,6 @@
     font-size: 1.5rem;
 }
 
-.text-attention2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 15rem;
-    background-color: #f1e097;
-    margin-bottom: 5rem !important;
-    padding-left: 10% !important;
-    
-}
-
-.title-attention2{
-    width: 100%;
-    padding-left: 10% !important;
-}
-
-.title-attention2 h1{
-    font-size: 3rem;
-}
-
-.description-attention2{
-    width: 80%;
-    padding-left: 25% !important;
-}
-
-.description-attention2 p{
-    font-size: 1.5rem;
-}
-
 /* Anunciment attention */
 
 
@@ -202,27 +173,6 @@
 .cabana-img img{
     max-height: 30rem;
     max-width: 40rem;
-}
-
-.general-description {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    width: 60%;
-    height: 100%;
-    padding-left: 2% !important;
-}
-
-.general-description h1{
-    font-size: 3rem;
-}
-
-.general-description p{
-    font-size: 1.5rem;
-}
-
-.general-description p:last-child{
-    margin-top: 2% !important;
 }
 
 /* Content page */
