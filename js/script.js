@@ -1,4 +1,4 @@
-$('div a').click(function(e){
+$('div a').click(function (e) {
     e.preventDefault();
     var id = $(this).attr('href'),
         targetOffset = $(id).offset().top;
