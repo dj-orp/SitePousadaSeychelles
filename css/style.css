@@ -22,14 +22,7 @@
     background-color: #197a89d4;
     position: fixed;
     z-index: 999;
-}
-
-.header-top img{
-    position: relative;
-    width: 200px !important;
-    height: 150px !important;
-    background-color: #197a89d4;
-    margin-right: 2% !important;
+    padding-left: 10% !important;
 }
 
 .background-header-carousel {
@@ -46,21 +39,21 @@
     height: 1000px;
 }
 
-.unidades-header{
+.unidades-header {
     display: flex;
     justify-content: space-between;
     align-items: center !important;
     width: 15%;
-    margin-left: 20% !important;
+    margin-left: 25% !important;
     padding-top: 0.5% !important;
 }
 
-.dropdown{
+.dropdown {
     width: 30% !important;
     height: 100% !important;
 }
 
-.btn{
+.btn {
     height: 100%;
     font-size: 2rem !important;
     background-color: transparent !important;
@@ -68,36 +61,40 @@
     padding-top: 1.5% !important;
 }
 
-.btn-secondary:not(:disabled):not(.disabled).active:focus, .btn-secondary:not(:disabled):not(.disabled):active:focus, .show>.btn-secondary.dropdown-toggle:focus{
+.btn-secondary:not(:disabled):not(.disabled).active:focus,
+.btn-secondary:not(:disabled):not(.disabled):active:focus,
+.show>.btn-secondary.dropdown-toggle:focus {
     box-shadow: 0 0 0 0.2rem rgb(108 117 125 / 0%) !important;
     height: 100%;
 }
 
-.dropdown-menu{
+.dropdown-menu {
     background-color: #197a89d4 !important;
     width: 70% !important;
     font-size: 1.4rem !important;
     border: 1px solid #197a89 !important;
 }
 
-.dropdown-menu a{
+.dropdown-menu a {
     padding-left: 4% !important;
 }
 
-.dropdown-item{
+.dropdown-item {
     color: #ffff !important;
+    transition: 1s;
 }
 
-.dropdown-item:hover{
-    background-color: #197a89 !important;
+.dropdown-item:hover {
+    background-color: #14626e !important;
 }
+
 /* Header */
 
 
 /* Content page */
 /* Anunciment attention */
 
-.text-attention{
+.text-attention {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,31 +104,43 @@
     background-color: #79baca;
     margin-bottom: 5rem !important;
     padding-left: 10% !important;
-    
+
 }
 
-.title-attention{
+.title-attention {
     width: 100%;
     padding-left: 15% !important;
 }
 
-.title-attention h1{
+.title-attention h1 {
     font-size: 3rem;
 }
 
-.description-attention{
+.description-attention {
     width: 100%;
     padding-left: 30% !important;
 }
 
-.description-attention p{
+.description-attention p {
     font-size: 1.5rem;
 }
 
 /* Anunciment attention */
 
 
+.all-units {
+    display: flex;
+    width: 80% !important;
+}
 
+.all-units a {
+    text-decoration: none !important;
+    color: #212529;
+}
+
+.all-units a:hover {
+    color: #252129;
+}
 
 .content-no-background {
     display: flex;
@@ -144,38 +153,61 @@
 .unitis-apresentation {
     display: flex;
     flex-direction: column;
-    justify-content:center;
-    margin-top: 4%;
     width: 80% !important;
-    border-bottom: 1px solid black;
-    margin-bottom: 4% !important;
+    padding-bottom: 5% !important;
+    margin: 3% !important;
+    border: 1px solid #197a89;
 
 }
 
-.unitis-apresentation h1{
+.unitis-apresentation h1 {
     font-size: 3rem !important;
     margin-bottom: 1.5% !important;
 }
 
-.unitis-img-description {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    width: 100%;
-    margin-bottom: 6% !important;
+.unitis-apresentation p{
+    font-size: 1.7rem !important;
+    color: #212529 !important;
 }
 
-.suite-img img{
-    max-height: 30rem;
-    max-width: 40rem;
+.description-unitis{
+    margin-left: 3% !important;
 }
 
-.cabana-img img{
+.suite-img img {
     max-height: 30rem;
-    max-width: 40rem;
+    max-width: 50rem;
+}
+
+.cabana-img img {
+    max-height: 30rem;
+    max-width: 50rem;
 }
 
 /* Content page */
+
+
+
+
+/* Icons */
+
+.icons-geral {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.icons-geral img {
+    margin-top: 3% !important;
+    margin-right: 3% !important;
+    width: 60px !important;
+    height: 100% !important;
+}
+
+/* Icons */
+
+
+
 
 /* Resposiviti */
 
@@ -202,3 +234,5 @@
         max-width: 100% !important;
     }
 }
+
+/* Resposiviti */
