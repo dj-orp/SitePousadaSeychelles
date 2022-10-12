@@ -50,8 +50,9 @@ h1{
 
 }
 
-.dp-menu ul {
-    background-color: #197a89de;
+.header-top ul li{
+    display: inline !important;
+    color: white;
 }
 
 .header-top ul li a{
@@ -87,8 +88,8 @@ h1{
     display: block !important;
 }
 
-.dp-menu ul ul {
-    width: 150px
+.header-top ul ul{
+    width: 100% !important;
 }
 
 .header-top ul ul li{
