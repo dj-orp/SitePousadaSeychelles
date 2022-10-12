@@ -18,84 +18,55 @@ html {
 
 
 /* Header */
-
-.header-top{
-    display: flex;
-    width: 100% !important;
-    height: 70px !important;
-    align-items: center !important;
-    background-color: #197a89d4;
-    position: fixed;
-    z-index: 999;
-    padding-left: 15% !important;
-    font-size: 2rem;
+.dp-menu{
+   
 }
 
-.header-top ul{
-    list-style-type: none !important;
-    position: relative !important;
-
+.dp-menu ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-.header-top ul li{
-    display: inline !important;
-    color: white;
+.dp-menu ul {
+    background-color: #197a89de;
 }
 
-.header-top ul li a{
-    width: 100% !important;
-    height: 100% !important;
-    color: white;
+.dp-menu ul li {
+    display: inline;
+    position: relative;
+}
+
+.dp-menu ul li a {
+    color: #ffff;
     text-decoration: none;
     display: inline-block;
-    padding: 2%;
-    transition: background .3s !important;
-
+    padding: 10px;
+    transition: background .3s;
 }
 
-.header-top ul li a:hover{
-    background-color: #197a89d4;
-    
+.dp-menu ul li a:hover {
+    background-color: #166975d8;
 }
 
-
-
-.header-top ul ul{
+/*sub menu*/
+.dp-menu ul ul {
     display: none;
     left: 0;
-    position: absolute !important;
-    background-color: #197a89d4;
-    transition: background .3s;
-
+    position: absolute;
 }
 
-.header-top ul li:hover ul{
+.dp-menu ul li:hover ul {
     display: block;
 }
 
-.header-top ul ul{
-    width: 100% !important;
+.dp-menu ul ul {
+    width: 150px
 }
 
-.header-top ul ul li{
+.dp-menu ul ul li a {
     display: block;
 }
 
-
-
-
-.dropdown{
-    display: flex;
-    align-items: center !important;
-}
-
-.unidades-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center !important;
-    width: 15%;
-    margin-left: 30% !important;
-}
 
 .background-header-carousel {
     position: absolute;
