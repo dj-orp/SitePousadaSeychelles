@@ -190,7 +190,6 @@ h1{
     display: flex;
     flex-direction: column;
     width: 80% !important;
-    padding-bottom: 2% !important;
     margin: 3% !important;
     border: 1px solid #197a89;
 
@@ -208,6 +207,33 @@ h1{
 .description-unitis {
     margin-left: 3% !important;
     margin-top: 3% !important;
+}
+
+.button-a-whatsapp{
+    width: 100% !important;
+    height: 5rem !important;
+    margin-top: 2% !important;
+    display: flex;
+    padding: 2% !important;
+    text-align: center;
+}
+
+.button-a-whatsapp a{
+    color: #ffff;
+    background-color: #197a89;
+    padding: 1% !important;
+    width: 100%;
+    height: 100%;
+    align-items: center !important;
+    font-size: 1.5rem !important;
+    transition: .4s;
+}
+
+.button-a-whatsapp a:hover{
+    letter-spacing: 1px !important;
+    color: #ffff;
+    background-color: #125b66;
+
 }
 
 .suite-img{
@@ -263,6 +289,7 @@ footer{
     justify-content: space-around !important;
     width: 100% !important;
     padding: 1.5% !important;
+    padding-bottom: 2.5% !important;
 }
 
 .footer-content h1{
@@ -274,6 +301,10 @@ footer{
 .first-column-footer{
     display: flex;
     align-items: center;
+}
+
+.first-column-footer img{
+    width: 17rem !important;
 }
 
 
@@ -303,6 +334,26 @@ footer{
 .thirty-column-footer iframe{
     max-width: 15rem;
     max-height: 15rem;
+}
+
+
+
+
+.fourty-column-footer{
+    width: 20% !important;
+}
+
+.inf-adicionais{
+    margin-top: 4% !important;
+    color: #ffff;
+}
+
+.inf-geral{
+    padding-left: 2% !important;
+}
+
+.inf-content{
+    margin-top: 2% !important;
 }
 
 .icons-contact{
