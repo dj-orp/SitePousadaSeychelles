@@ -61,7 +61,7 @@ h1{
     color: white;
     text-decoration: none !important;
     display: inline-block !important;
-    padding: 2% !important;
+    padding-left: 2% !important;
 
 }
 
@@ -89,6 +89,7 @@ h1{
 }
 
 .header-top ul ul{
+    font-size: 1.6rem !important;
     width: 100% !important;
 }
 
@@ -124,7 +125,7 @@ h1{
 
 .carousel-item img {
     width: 100%;
-    height: 1000px;
+    max-height: 1200px;
 }
 
 
@@ -299,6 +300,7 @@ footer{
 }
 
 .first-column-footer{
+    width: 40% !important;
     display: flex;
     align-items: center;
 }
@@ -310,15 +312,13 @@ footer{
 
 
 .second-column-footer{
-    width: 12%;
+    width: 30%;
     display: flex;
     flex-direction: column !important;
     line-height: 2rem;
 }
 
-
 .second-column-footer a{
-    padding-left: 6% !important;
     color: white !important;
     transition: .4s;
 }
@@ -330,18 +330,28 @@ footer{
 
 
 
+.thirty-column-footer{
+    width: 40% !important;
+}
 
 .thirty-column-footer iframe{
     max-width: 15rem;
     max-height: 15rem;
 }
 
-
-
-
 .fourty-column-footer{
-    width: 20% !important;
+    width: 60% !important;
 }
+
+
+
+.first-second-column,
+.tirty-fourty-column{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
 
 .inf-adicionais{
     margin-top: 4% !important;
@@ -390,28 +400,61 @@ footer{
     background-color: rgb(179, 179, 179);
 }
 
+
+
 /* Footer */
 
 
 
 /* Resposiviti */
 
-@media (min-width: 1200px) {
-    .container {
-        max-width: 100% !important;
+@media (max-width: 2560px) {
+    .header-top{
+        font-size: 2.8rem !important;
     }
+
+    .dropdown{
+        width: 30% !important;
+    }
+
+    .dropdown-2{
+        width: 18rem !important;
+    }
+
+    .header-top ul li a{
+        padding: 0 !important;
+        padding-left: 2% !important;
+    }
+
+    .header-top ul ul{
+        font-size: 2.4rem !important;
+    }
+
+    
 }
 
-@media (min-width: 992px) {
-    .container {
-        max-width: 100% !important;
-    }
+@media (max-width: 1440px) {
+    
 }
 
-@media (min-width: 768px) {
-    .container {
-        max-width: 100% !important;
-    }
+@media (max-width: 1200px) {
+    
+}
+
+@media (max-width: 1025px) {
+    
+}
+
+@media (max-width: 769px) {
+    
+}
+
+@media (max-width: 481px) {
+    
+}
+
+@media (max-width: 320px) {
+    
 }
 
 @media (min-width: 576px) {
@@ -419,5 +462,4 @@ footer{
         max-width: 100% !important;
     }
 }
-
 /* Resposiviti */
