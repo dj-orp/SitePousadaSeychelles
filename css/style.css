@@ -234,7 +234,11 @@ h1{
     letter-spacing: 1px !important;
     color: #ffff;
     background-color: #125b66;
+}
 
+.button-a-whatsapp img{
+    width: 3rem !important;
+    margin-right: 5% !important;
 }
 
 .suite-img{
@@ -375,8 +379,11 @@ footer{
 
 .button-style-all{
     display: flex;
-    max-width: 4rem !important;
-    max-height: 4rem !important;
+    width: 4rem !important;
+    height: 4rem !important;
+
+    justify-content: center;
+    align-items: center;
 
     background-color: white;
     border-radius: 50px;
@@ -384,15 +391,15 @@ footer{
 }
 
 .button-style-all img{
-    max-width: 3rem !important;
-    max-height: 3rem !important;
+    width: 3rem !important;
+    height: 3rem !important;
     transition-duration: .4s !important;
 
 }
 
 .button-style-all img:hover{
-    max-width: 3.1rem !important;
-    max-height: 3.1rem !important;
+    width: 3.1rem !important;
+    height: 3.1rem !important;
 }
 
 
@@ -430,31 +437,376 @@ footer{
         font-size: 2.4rem !important;
     }
 
+    .content-no-background{
+        margin-top: 65rem !important;
+    }
+
+    .text-attention{
+        height: 15rem !important;
+    }
+
+    .text-attention h1{
+        font-size: 3rem !important;
+    }
+
+    .text-attention p{
+        font-size: 1.7rem !important;
+    }
+
+    .suite-img img{
+        max-width: 100% !important;
+        max-height: 35rem !important;
+    }
+
+    .description-unitis h1{
+        font-size: 2.8rem !important;
+    }
+
+    .description-unitis p{
+        font-size: 1.7rem !important;
+    }
+
+    .button-a-whatsapp{
+        height: 6rem !important;
+    }
+
+    .button-a-whatsapp a{
+        font-size: 1.7rem !important;
+    }
+
+    .cabana-img img{
+        max-width: 100% !important;
+        max-height: 35rem !important;
+    }
+
+    .footer-content h1{
+        font-size: 2.8rem !important;
+    }
+
+    .second-column-footer a{
+        font-size: 1.6rem !important;
+    }
+
+    .second-column-footer{
+        line-height: 3rem !important;
+    }
+
+    .first-column-footer img{
+        width: 26rem !important;
+    }
+
+    .thirty-column-footer iframe{
+        max-width: 23rem !important;
+        max-height: 18rem !important;
+    }
     
+    .icons-contact{
+        width: 60%;
+    }
+
+    .button-style-all{
+        width: 5.3rem !important;
+        height: 5.3rem !important;
+    }
+
+
+    .button-style-all img{
+        width: 4.3rem !important;
+        height: 4.3rem !important;
+    }
+
+    .button-style-all img:hover{
+        width: 4.5rem !important;
+        height: 4.5rem !important;
+    }
+
+    .inf-geral p{
+        font-size: 1.5rem !important;
+    }
+
+}
+
+@media (max-width: 1930px){
+    .header-top{
+        font-size: 2.1rem !important;
+    }
+
+    .header-top ul ul{
+        font-size: 1.8rem !important;
+    }
+
+    .description-unitis h1{
+        font-size: 2.4rem !important;
+    }
+
+    .footer-content h1{
+        font-size: 2.4rem !important;
+    }
+
+    .second-column-footer a{
+        font-size: 1.4rem !important;
+    }
+
+    .fourty-column-footer{
+        width: 55% !important;
+    }
+
+    .inf-geral p{
+        font-size: 1.4rem !important;
+    }
+
+    .icons-contact{
+        width: 70% !important;
+    }
+
+    .button-style-all{
+        width: 4.8rem !important;
+        height: 4.8rem !important;
+    }
+
+    .button-style-all img{
+        width: 3.8rem !important;
+        height: 3.8rem !important;
+    }
+
 }
 
 @media (max-width: 1440px) {
-    
-}
+    .header-top a{
+        font-size: 2rem !important;
+    }
 
-@media (max-width: 1200px) {
-    
+    .header-top ul ul a{
+        font-size: 1.7rem !important;
+    }
+
+    .carousel-item img{
+        height: 900px !important;
+    }
+
+    .content-no-background{
+        margin-top: 50rem !important;
+    }
+
+    .text-attention{
+        height: 13rem !important;
+    }
+
+    .text-attention h1{
+        font-size: 2.4rem !important;
+    }
+
+    .text-attention p{
+        font-size: 1.4rem !important;
+    }
+
+    .suite-img img{
+        height: 25rem !important;
+    }
+
+    .cabana-img img{
+        height: 25rem !important;
+    }
+
+    .description-unitis h1{
+        font-size: 2rem !important;
+    }
+
+    .description-unitis p{
+        font-size: 1.5rem !important;
+    }
+
+    .icons-geral img{
+        width: 3rem !important;
+        height: 3rem !important;
+    }
+
+    .button-a-whatsapp{
+        height: 5rem !important;
+    }
+
+    .button-a-whatsapp img{
+        width: 2.6rem !important;
+        height: 2.6rem !important;
+    }
+
+    .footer-content h1{
+        font-size: 2rem !important;
+    }
+
+    .first-second-column{
+        width: 70%;
+    }
+
+    .first-column-footer img{
+        width: 15rem !important;
+    }
+
+    .second-column-footer{
+        width: 40% !important;
+    }
+
+    .second-column-footer a{
+        font-size: 1.3rem !important;
+    }
+
+    .thirty-column-footer iframe{
+        max-width: 16rem !important;
+    }
+
+    .icons-contact{
+        width: 75%;
+    }
+
+    .button-style-all{
+        width: 4rem !important;
+        height: 4rem !important;
+    }
+
+    .button-style-all img{
+        width: 3rem !important;
+        height: 3rem !important;
+    }
+
+    .fourty-column-footer p{
+        font-size: 1.3rem !important;
+    }
+
 }
 
 @media (max-width: 1025px) {
+    .header-top a{
+        font-size: 1.7rem !important;
+    }
+
+    .header-top ul ul a{
+        font-size: 1.4rem !important;
+    }
+
+    .dropdown-2{
+        width: 10rem !important;
+    }
+
+    .carousel-item img{
+        height: 700px !important;
+    }
+
+    .content-no-background{
+        margin-top: 37rem !important;
+    }
+
+    .text-attention h1{
+        font-size: 2rem !important;
+    }
+
+    .text-attention p{
+        font-size: 1.2rem !important;
+    }
+
+    .suite-img img{
+        height: 20rem !important;
+    }
+
+    .cabana-img img{
+        height: 20rem !important;
+    }
+
+    .description-unitis h1{
+        font-size: 1.7rem !important;
+    }
+
+    .description-unitis p{
+        font-size: 1.2rem !important;
+    }
+
+    .icons-geral img{
+        width: 2.4rem !important;
+        height: 2.4rem !important;
+    }
     
+    .button-a-whatsapp img{
+        width: 2.4rem !important;
+        height: 2.4rem !important;
+    }
+    
+        .button-a-whatsapp{
+            height: 4.5rem !important;
+        }
+
+    .footer-content{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first-second-column {
+        width: 80% !important;
+    }
+
+    .tirty-fourty-column{
+        margin-top: 5% !important;
+        width: 80% !important;
+    }
+
+    .thirty-column-footer{
+        width: 50% !important;
+    }
+
+    .thirty-column-footer iframe{
+        max-width: 20rem !important;
+    }
+
+    .fourty-column-footer{
+        width: 50% !important;
+    }
+
 }
 
 @media (max-width: 769px) {
-    
-}
+    .header-top a{
+        font-size: 1.6rem !important;
+    }
 
-@media (max-width: 481px) {
-    
-}
+    .dropdown{
+        width: 45% !important;
+    }
 
-@media (max-width: 320px) {
-    
+    .text-attention p{
+        font-size: 1rem !important;
+    }
+
+    .all-units{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .first-second-column{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .first-column-footer{
+        margin-top: 5% !important;
+    }
+
+    .second-column-footer{
+        margin-top: 5% !important;
+    }
+
+    .tirty-fourty-column{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fourty-column-footer{
+        margin-top: 5% !important;
+    }
+
+    .fourty-column-footer p{
+        margin-top: 5% !important;
+    }
+
 }
 
 @media (min-width: 576px) {
@@ -462,4 +814,151 @@ footer{
         max-width: 100% !important;
     }
 }
+
+@media (max-width: 481px) {
+    .header-top a{
+        font-size: 1.3rem !important;
+    }
+
+    .header-top ul ul a{
+        font-size: 1rem !important;
+    }
+
+    .dropdown{
+        width: 15rem !important;
+    }
+
+    .dropdown-2{
+        width: 5rem !important;
+    }
+
+    .carousel-item img{
+        height: 400px !important;
+    }
+
+    .content-no-background{
+        margin-top: 20rem !important;
+    }
+
+    .description-attention{
+        margin-top: 2% !important;
+        padding: 0 !important;
+    }
+
+    .text-attention h1{
+        font-size: 1.5rem !important;
+    }
+
+    .text-attention p{
+        font-size: 1rem !important;
+    }
+
+    .suite-img img{
+        height: 15rem !important;
+    }
+
+    .cabana-img img{
+        height: 15rem !important;
+    }
+
+    .description-unitis h1{
+        font-size: 1.3rem !important;
+    }
+
+    .description-unitis p{
+        font-size: 1rem !important;
+    }
+
+    .icons-geral img{
+        width: 2.1rem !important;
+        height: 2.1rem !important;
+    }
+    
+    .button-a-whatsapp img{
+        width: 1.7rem !important;
+        height: 1.7rem !important;
+    }
+
+    .button-a-whatsapp a{
+        font-size: 1.3rem !important;
+    }
+    
+    .button-a-whatsapp{
+        height: 3.5rem !important;
+    }
+
+    .first-column-footer{
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center !important;
+    }
+
+    .footer-content h1{
+        font-size: 1.5rem !important;
+    }
+
+    .footer-content a{
+        font-size: 1.1rem !important;
+    }
+
+    .first-second-column{
+        align-items: flex-start;
+    }
+
+    .second-column-footer{
+        width: 100% !important;
+    }
+
+    .thirty-column-footer iframe{
+        max-width: 23rem !important;
+    }
+
+    .tirty-fourty-column{
+        align-items: flex-start;
+    }
+
+    .fourty-column-footer{
+        width: 100% !important; 
+    }
+
+    .icons-contact{
+        width: 100% !important;
+    }
+
+    .inf-adicionais p{
+        margin-top: 2% !important;
+        font-size: 1.1rem !important;
+    }
+
+}
+
+@media (max-width: 375px) {
+    .header-top{
+        padding: 2% !important;
+    }
+    
+    .dropdown{
+        width: 10rem !important;
+    }
+
+    .dropdown-2:not(:first-child){
+        width: 6.3rem !important;
+    }
+
+    .all-units{
+        width: 95% !important;
+    }
+
+    .thirty-column-footer iframe{
+        max-width: 18.5rem !important;
+    }
+}
+
+@media (max-width: 320px){
+    .thirty-column-footer iframe{
+        max-width: 16rem !important;
+    }
+}
+
 /* Resposiviti */
