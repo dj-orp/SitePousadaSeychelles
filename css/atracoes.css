@@ -1,0 +1,24 @@
+.content-geral{
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+}
+
+.all-content{
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+}
+
+.contents {
+    display: flex !important;
+    flex-direction: row !important;
+    width: 80% !important;
+    margin-top: 5% !important;
+}
+
+.img-content img{
+    width: 45rem !important;
+}
