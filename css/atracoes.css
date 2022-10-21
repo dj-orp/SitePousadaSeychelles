@@ -10,15 +10,28 @@
     align-items: center !important;
     flex-direction: column !important;
     justify-content: center !important;
+    margin-top: 5% !important;
+}
+
+.all-content h1{
+    font-size: 2.1rem;
 }
 
 .contents {
     display: flex !important;
     flex-direction: row !important;
     width: 80% !important;
-    margin-top: 5% !important;
+    margin-top: 2% !important;
 }
 
 .img-content img{
     width: 45rem !important;
+}
+
+.text-content{
+    padding: 2% !important; 
+}
+
+.text-content p{
+    font-size: 1.4rem ;
 }
