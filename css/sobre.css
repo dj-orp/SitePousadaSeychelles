@@ -1,0 +1,21 @@
+.content-sobre{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-top: 5% !important;
+    margin-bottom: 10% !important;
+    
+}
+
+.text-explicative{
+    width: 80% !important;
+    border: 2px solid #14626e;
+    border-radius: 25px;
+    padding: 2% !important;
+}
+
+.text-explicative p{
+    margin-top: 2% !important;
+    font-size: 1.4rem !important;
+    text-align: justify;
+}
