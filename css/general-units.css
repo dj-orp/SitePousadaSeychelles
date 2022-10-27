@@ -8,13 +8,73 @@
     width: 80% !important;
 }
 
-.carousel-img-big{
-    margin-top: 10% !important;
-    width: 80% !important;
+.all-content-unitis{
+    width: 100%!important;
+    height: 100%!important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+.first-row{
+    margin-top: 5% !important;
+    margin-bottom: 3%!important;
+    width: 80% !important;
+    display: flex !important;
+    justify-content: space-between !important;
+}
 
-.carousel-img-big img{
-    max-height: 40rem !important;
-    max-width: 80rem !important;
+.left-side img{
+    max-width: 50rem !important;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    padding: 2% !important;
+}
+
+.right-side h1{
+    margin-bottom: 5% !important;
+}
+
+.second-row{
+    margin-bottom: 3%!important;
+    width: 80% !important;
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.third-row{
+    margin-bottom: 3%!important;
+    width: 80% !important;
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.button-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10% !important;
+    background-color: #14626e;
+}
+
+.button-contact a{
+    width: 100% !important;
+    height: 100% !important;
+    transition: .4s;
+    text-decoration: none !important;
+    color: white;
+}
+
+.button-contact img{
+    max-width: 3rem !important;
+}
+
+.button-contact a:hover{
+    letter-spacing: .4px;
+    color: white !important;
+
 }
