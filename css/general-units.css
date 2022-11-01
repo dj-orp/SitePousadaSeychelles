@@ -20,19 +20,20 @@
 .first-row{
     margin-top: 5% !important;
     margin-bottom: 3%!important;
-    width: 80% !important;
+    width: 75% !important;
     display: flex !important;
     justify-content: space-between !important;
-}
-
-.left-side img{
-    max-width: 50rem !important;
 }
 
 .right-side {
     display: flex;
     flex-direction: column;
     padding: 2% !important;
+}
+
+img{
+    max-width: 45rem !important;
+    max-height: 32rem !important;;
 }
 
 .right-side h1{
@@ -43,27 +44,35 @@
     margin-bottom: 3%!important;
     width: 80% !important;
     display: flex !important;
-    justify-content: space-between !important;
+    justify-content: space-around !important;
+    align-items: center !important;
 }
 
 .third-row{
     margin-bottom: 3%!important;
     width: 80% !important;
     display: flex !important;
-    justify-content: space-between !important;
+    justify-content: space-around !important;
+    align-items: center !important;
 }
 
 .button-contact{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10% !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 13% !important;
     background-color: #14626e;
+    border-radius: 20px;
+    transition: .4s;
+    padding: .3% !important;
 }
 
 .button-contact a{
     width: 100% !important;
     height: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transition: .4s;
     text-decoration: none !important;
     color: white;
@@ -71,6 +80,11 @@
 
 .button-contact img{
     max-width: 3rem !important;
+    margin-right: 3% !important;
+}
+
+.button-contact:hover{
+    background-color: #0e464e;
 }
 
 .button-contact a:hover{
