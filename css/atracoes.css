@@ -14,6 +14,7 @@
     border: 1px solid #14626e;
     padding-top: 1% !important;
     padding-bottom: 1% !important;
+    text-align: justify;
 }
 
 .all-content h1{
@@ -32,9 +33,117 @@
 }
 
 .text-content{
-    padding: 2% !important; 
+    padding: 1.2% !important; 
 }
 
 .text-content p{
     font-size: 1.4rem ;
+}
+
+
+
+
+
+@media (max-width: 2560px){
+    .all-content h1{
+        font-size: 2.5rem !important;
+    }
+    
+    .all-content img{
+        width: 70rem !important;
+    }
+
+    .all-content p{
+        font-size: 1.8rem!important;
+    }
+}
+
+@media (max-width: 1930px){
+    .all-content h1{
+        font-size: 2rem !important;
+    }
+    
+    .all-content img{
+        width: 45rem !important;
+    }
+
+    .all-content p{
+        font-size: 1.2rem!important;
+    }
+}
+
+@media (max-width: 1440px){
+    
+}
+
+@media (max-width: 1025px){
+    .contents{
+        width: 90% !important;
+    }
+
+    .all-content h1{
+        font-size: 1.5rem !important;
+    }
+    
+    .all-content img{
+        width: 29rem !important;
+    }
+
+    .all-content p{
+        font-size: 1rem!important;
+    }
+}
+
+@media (max-width: 769px){
+    .contents-1{
+        display: flex;
+        width: 100% !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .contents-2{
+        display: flex;
+        width: 100% !important;
+        flex-direction: column-reverse!important;
+        justify-content: center !important;
+        align-items: center !important; 
+    }
+
+    .text-content{
+        display: flex;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .all-content p{
+        margin-top: 2% !important;
+        align-self: center;
+        width: 90% !important;
+    }
+
+
+}
+
+@media (max-width: 576px){
+    .all-content h1{
+        font-size: 1.3rem !important;
+    }
+    
+    .all-content img{
+        width: 20rem !important;
+    }
+
+    .all-content p{
+        width: 85% !important;
+        font-size: .9rem!important;
+    }
+}
+
+
+@media (max-width: 320px){
+    .all-content img{
+        width: 17rem !important;
+    }
 }

@@ -427,7 +427,8 @@ footer{
         padding-left: 2% !important;
     }
 
-    .header-top ul ul{
+    .header-top ul ul:only-child(:last-child){
+        width: 80% !important;
         font-size: 2.1rem !important;
     }
 
