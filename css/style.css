@@ -194,6 +194,7 @@ html{
     width: 80% !important;
     margin: 3% !important;
     border: 1px solid #197a89;
+    height: fit-content;
 
 }
 
