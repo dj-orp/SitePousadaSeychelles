@@ -146,18 +146,25 @@ html{
     height: 13rem;
     background-color: #79baca;
     margin-bottom: 5rem !important;
-    padding-left: 10% !important;
 
 }
 
 .title-attention {
     width: 100%;
-    padding-left: 15% !important;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .description-attention {
     width: 100%;
-    padding-left: 30% !important;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2rem!important;
 }
 
 .description-attention p {
